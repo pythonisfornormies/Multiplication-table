@@ -25,6 +25,10 @@ rawwidth = input("Width of multiplication table: ")
 rawheight = input("Height of multiplication table: ")
 width = int(rawwidth)
 height = int(rawheight)
-for i in range(1,width+1):
-    for i in range(1, width+1):
-        print(i,(i*2))
+w = width + 1
+h = height + 1
+
+for x in range(1,w):
+    print(x)
+for y in range(1,h):
+    print(y)
