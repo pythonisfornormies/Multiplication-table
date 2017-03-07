@@ -35,4 +35,4 @@ while x <= h:
     y = 0 
     while y <= w:
         y += 1 
-        print(y)
+        print(l,w)
