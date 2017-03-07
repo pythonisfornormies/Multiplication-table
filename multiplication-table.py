@@ -28,11 +28,11 @@ height = int(rawheight)
 w = width + 1
 h = height + 1
 
-for x in range(1,w):
-    print(x)
-for y in range(1,h):
-    print(y)
-    
-while x <= width:
-    while y <= height:
-        
+x = 0
+y = 0
+while x <= h:
+    x += 1
+    x = 0
+    while x <= w:
+        y += 1 
+        print(x,y)
