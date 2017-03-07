@@ -32,7 +32,7 @@ x = 0
 y = 0
 while x <= h:
     x += 1
-    x = 0
+    y = 0
     while x <= w:
         y += 1 
         print(x,y)
