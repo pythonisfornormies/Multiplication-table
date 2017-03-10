@@ -30,11 +30,11 @@ h = height
 
 x = 0
 y = 0
-while x <= h - 1:
+while x < h:
     print(" ")
     x += 1
     y = 0 
-    while y <= w - 1:
+    while y < w:
         y += 1 
         print(x*y, end = " ")
         
